@@ -1,0 +1,28 @@
+{
+    // Instructions:
+    //  * Replace My_Project with the name of your smart contract project
+    "name": "My_Project",
+    "workspaceMount": "type=volume,src=My_Project,dst=/root/eos",
+    "runArgs": ["--name=My_Project"],
+
+    ///////////////////////////////////////
+    // NO NEED TO MODIFY BELOW THIS LINE //
+    ///////////////////////////////////////
+
+    // This docker image is used to install a template multi-class smart contract
+    "image": "jamesmart/new-multi-class-eos-contract:latest",
+    "workspaceFolder": "/root/eos",
+
+    // Standard EOS Smart contract development extensions
+    "extensions": [
+        "ms-vscode.cpptools",
+        "tdennis4496.cmantic",
+        "xaver.clang-format",
+        "notskm.clang-tidy",
+        "twxs.cmake",
+        "rioj7.command-variable",
+        "eamodio.gitlens",
+        "ziyasal.vscode-open-in-github",
+        "actboy168.tasks"
+    ]
+}

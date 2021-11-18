@@ -6,7 +6,7 @@ Get up and running with a new EOS smart contract (with clsdk / partial gdb debug
 2. [Remote - Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) VSCode extension has been installed
 
 # How to use
-1. Clone this repo
+1. Clone this repo **into a new directory with the name of your project** (Directory naming restrictions: ```[a-zA-Z0-9][a-zA-Z0-9_.-]```)
 2. Open in VSCode
 3. Modify the .devcontainer file according to the instructions at the top of the file
 4. Run the ```Remote-Containers: Rebuild and Reopen in Container``` command in VSCode

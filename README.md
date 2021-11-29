@@ -12,7 +12,9 @@ Get up and running with a new EOS smart contract (with clsdk / partial gdb debug
 4. Run the ```Remote-Containers: Rebuild and Reopen in Container``` command in VSCode
 
 VSCode will relaunch, connecting to a new docker container with an empty multi-class eos contract ready to be compiled with clsdk (from [this](https://github.com/EOSPowerNetwork/eos-contract-template_multi-class) repo).
-After it launches, consider initializing it as a new git repository to make sure you don't lose any work.
+After it launches, consider initializing it as a new git repository and pushing it to github to make sure you don't lose any work.
+
+To collaborate with other developers, or just to work on your project from another PC, you may simply use the [VSCode Open EOS Contract](https://github.com/EOSPowerNetwork/vscode-open-eos-contract) repository.
 
 # Misc notes
 When VSCode closes, the container stops. The data within the container is not accessible, as it's stored in an unnamed volume mounted on your PC, only accessible through the docker container launched by VSCode.

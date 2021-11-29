@@ -1,4 +1,10 @@
 {
+    //////////////////////////////////////////////////////////////////////////////////////////////////
+    // ** Instructions **                                                                           //
+    // If you cloned this repo into a directory with the name of your new smart contract project,   //
+    //   then you don't need to do any modifications to this file.                                  //
+    //////////////////////////////////////////////////////////////////////////////////////////////////
+
     // Optional Instructions:
     //  * Replace ${localWorkspaceFolderBasename} with the name of your smart contract project
     "name": "${localWorkspaceFolderBasename}",
